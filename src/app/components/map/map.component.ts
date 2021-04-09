@@ -37,7 +37,7 @@ export class MapComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-        this.initMap();
+    this.initMap();
   }
 
   ngAferViewInit(): void {
