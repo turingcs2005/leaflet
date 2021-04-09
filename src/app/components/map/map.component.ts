@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import * as L from 'leaflet';
 
 @Component({
@@ -39,10 +39,5 @@ export class MapComponent implements OnInit {
   ngOnInit(): void {
     this.initMap();
   }
-
-  ngAferViewInit(): void {
-
-  }
-
 
 }
